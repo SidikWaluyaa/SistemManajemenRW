@@ -1,59 +1,105 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Sistem Informasi Manajemen RW 10
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Sistem Informasi Manajemen RW 10 adalah aplikasi berbasis web yang dirancang untuk mempermudah pengelolaan data dan administrasi di lingkungan RW 10. Aplikasi ini menyediakan fitur lengkap untuk manajemen warga, keuangan, surat pengantar, bantuan sosial, dan inventaris aset.
 
-## About Laravel
+## Fitur Utama
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+-   **Manajemen Warga & KK**: Pencatatan lengkap data penduduk dan kartu keluarga.
+-   **Keuangan & Transaksi**: Laporan keuangan transparan, pencatatan pemasukan/pengeluaran, dan kategori transaksi.
+-   **Layanan Surat**: Pembuatan dan pencetakan surat pengantar otomatis.
+-   **Tagihan & Tunggakan**: Manajemen iuran bulanan warga.
+-   **Bantuan Sosial (Bansos)**: Pendataan program dan penerima bantuan sosial.
+-   **Inventaris & Aset**: Peminjaman dan pendataan aset milik RW.
+-   **Manajemen User**: Kontrol akses untuk Admin dan Pengurus RT.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Galeri Aplikasi
 
-## Learning Laravel
+### Halaman Utama (Homepage)
+Talaman depan yang informatif dan modern untuk warga.
+![Homepage](screenshoot/Home/127.0.0.1_8000_%20(1).png)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+### Halaman Login
+Halaman akses yang aman untuk administrator dan pengurus RW/RT.
+![Login Page](screenshoot/Login/127.0.0.1_8000_login.png)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+### Tampilan Admin (Dashboard & Fitur)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+#### 1. Dashboard Utama
+Ringkasan statistik warga, keuangan, dan aktivitas terbaru dalam satu pandangan.
+![Dashboard](screenshoot/Admin/127.0.0.1_8000_dashboard.png)
 
-### Premium Partners
+#### 2. Manajemen Kependudukan
+**Data Warga**: Pencatatan lengkap data penduduk.
+![Data Warga](screenshoot/Admin/127.0.0.1_8000_warga.png)
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+**Data Kartu Keluarga**: Daftar kepala keluarga dan anggotanya.
+![Kartu Keluarga](screenshoot/Admin/127.0.0.1_8000_kk.png)
 
-## Contributing
+**Detail Kartu Keluarga**: Tampilan detail anggota keluarga dalam satu KK.
+![Detail KK](screenshoot/Admin/127.0.0.1_8000_Show_kk.png)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+**Mutasi Warga**: Pencatatan warga pindah datang/keluar atau meninggal.
+![Mutasi Warga](screenshoot/Admin/127.0.0.1_8000_mutasi.png)
 
-## Code of Conduct
+#### 3. Manajemen Keuangan
+**Daftar Transaksi**: Pencatatan pemasukan dan pengeluaran kas RW.
+![Transaksi](screenshoot/Admin/127.0.0.1_8000_transaksi.png)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+**Laporan Keuangan**: Rekapitulasi keuangan yang dapat dicetak atau diekspor.
+![Laporan Keuangan](screenshoot/Admin/127.0.0.1_8000_transaksi_laporan.png)
 
-## Security Vulnerabilities
+**Kategori Transaksi**: Pengaturan pos-pos anggaran keuangan.
+![Kategori Transaksi](screenshoot/Admin/127.0.0.1_8000_kategori.png)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+#### 4. Tagihan & Iuran
+Manajemen tagihan iuran warga dan status pembayarannya.
+![Tagihan](screenshoot/Admin/127.0.0.1_8000_tagihan.png)
 
-## License
+#### 5. Layanan Surat
+Fitur pembuatan surat pengantar otomatis untuk kebutuhan warga (KTP, KK, SKCK, dll).
+![Layanan Surat](screenshoot/Admin/127.0.0.1_8000_surat.png)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+#### 6. Bantuan Sosial (Bansos)
+**Program Bansos**: Daftar program bantuan yang tersedia.
+![Program Bansos](screenshoot/Admin/127.0.0.1_8000_bansos_program.png)
+
+**Penerima Bansos**: Data warga yang menerima bantuan pada setiap program.
+![Penerima Bansos](screenshoot/Admin/127.0.0.1_8000_bansos_penerima.png)
+
+#### 7. Inventaris Barang
+**Data Aset**: Daftar barang inventaris milik RW.
+![Data Aset](screenshoot/Admin/127.0.0.1_8000_inventory_assets.png)
+
+**Peminjaman Barang**: Pencatatan peminjaman barang oleh warga.
+![Peminjaman Inventaris](screenshoot/Admin/127.0.0.1_8000_inventory_loans.png)
+
+#### 8. Pengaturan Sistem
+**Manajemen User**: Pengaturan akun untuk Admin dan Pengurus RT.
+![Manajemen User](screenshoot/Admin/127.0.0.1_8000_users.png)
+
+---
+
+## Teknologi
+
+Aplikasi ini dibangun menggunakan:
+-   **Framework**: Laravel 12
+-   **Database**: PostgreSQL / MySQL
+-   **Frontend**: Tailwind CSS, Blade Templates, Alpine.js
+-   **Server**: Apache / Nginx
+
+## Instalasi
+
+1.  Clone repository ini via Git.
+2.  Jalankan `composer install`
+3.  Jalankan `npm install && npm run dev`
+4.  Copy `.env.example` ke `.env` dan konfigurasi database.
+5.  Jalankan `php artisan key:generate`
+6.  Jalankan `php artisan migrate --seed`
+7.  Jalankan `php artisan serve`
+
+---
+&copy; 2025 RW 10 Management System.

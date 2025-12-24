@@ -10,6 +10,7 @@ use App\Http\Controllers\KategoriTransaksiController;
 use App\Http\Controllers\SuratPengantarController;
 use App\Http\Controllers\TagihanController;
 use App\Http\Controllers\MutasiWargaController;
+use App\Http\Controllers\UserController;
 
 use App\Http\Controllers\LaporanKeuanganController;
 
@@ -76,6 +77,11 @@ Route::middleware('auth')->group(function () {
     
     // Mutasi Warga
     Route::resource('mutasi', MutasiWargaController::class);
+
+    // User Management (Admin Only)
+    Route::middleware(\App\Http\Middleware\IsAdmin::class)->group(function () {
+        Route::resource('users', App\Http\Controllers\UserController::class);
+    });
 });
 
 require __DIR__.'/auth.php';
