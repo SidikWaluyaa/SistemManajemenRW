@@ -2,6 +2,8 @@
 
 Sistem Informasi Manajemen RW 10 adalah aplikasi berbasis web yang dirancang untuk mempermudah pengelolaan data dan administrasi di lingkungan RW 10. Aplikasi ini menyediakan fitur lengkap untuk manajemen warga, keuangan, surat pengantar, bantuan sosial, dan inventaris aset.
 
+<p align="center"><img src="public/images/logo-rw10-v2.jpg" width="150" alt="RW 10 Logo"></p>
+
 ## Fitur Utama
 
 -   **Manajemen Warga & KK**: Pencatatan lengkap data penduduk dan kartu keluarga.
